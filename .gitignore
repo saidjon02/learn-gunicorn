@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Django
+*.log
+staticfiles/
+media/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+
+# Gunicorn
+gunicorn-error.log
+gunicorn-access.log
+
+# Nginx
+nginx-error.log
+nginx-access.log
+
+# Database
+*.sqlite3
+
+# Other
+*.bak
+*.swp
+*.swo
